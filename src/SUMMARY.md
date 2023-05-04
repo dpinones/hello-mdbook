@@ -1,8 +1,18 @@
 # Beerus
 
-- [Chapter 1](./chapter_1.md)
+[Beerus Documentation](./title-page.md)
+[Contributor Covenant Code of Conduct](./chapter_2.md)
+[Contributing](./chapter_3.md)
 
-- [JSON-RPC methods](./chapter_2.md)
+## Getting Started
+
+- [Getting Started]()
+
+  - [Installation]()
+  
+## JSON-RPC methods
+
+- [JSON-RPC methods](./chapter_4.md)
   
   - [Ethereum](./rpc/ethereum/summary.md)
     - [eth_blockNumber](./rpc/ethereum/eth_blockNumber.md)
@@ -26,7 +36,7 @@
     - [eth_maxPriorityFeePerGas](./rpc/ethereum/eth_maxPriorityFeePerGas.md)
     - [eth_sendRawTransaction](./rpc/ethereum/eth_sendRawTransaction.md)
     - [eth_syncing](./rpc/ethereum/eth_syncing.md)
-  
+
   - [StarkNet](./rpc/starknet/summary.md)
     - [starknet_blockHashAndNumber](./rpc/starknet/starknet_blockHashAndNumber.md)
     - [starknet_blockNumber](./rpc/starknet/starknet_blockNumber.md)
@@ -48,7 +58,7 @@
     - [starknet_getTransactionReceipt](./rpc/starknet/starknet_getTransactionReceipt.md)
     - [starknet_pendingTransactions](./rpc/starknet/starknet_pendingTransactions.md)
     - [starknet_syncing](./rpc/starknet/starknet_syncing.md)
-  
+
   - [Additional](./rpc/additional/summary.md)
     - [starknet_addDeclareTransaction](./rpc/additional/starknet_addDeclareTransaction.md)
     - [starknet_addDeployAccountTransaction](./rpc/additional/starknet_addDeployAccountTransaction.md)
@@ -58,4 +68,3 @@
     - [starknet_l1_to_l2_message_nonce](./rpc/additional/starknet_l1_to_l2_message_nonce.md)
     - [starknet_l1_to_l2_messages](./rpc/additional/starknet_l1_to_l2_messages.md)
     - [starknet_l2_to_l1_messages](./rpc/additional/starknet_l2_to_l1_messages.md)
-  
