@@ -3,6 +3,7 @@
 [Beerus Documentation](./title-page.md)
 [Contributor Covenant Code of Conduct](./chapter_2.md)
 [Contributing](./chapter_3.md)
+[Security Policy](./chapter_4.md)
 
 ## Getting Started
 
@@ -12,7 +13,7 @@
   
 ## JSON-RPC methods
 
-- [JSON-RPC methods](./chapter_4.md)
+- [JSON-RPC methods](./chapter_5.md)
   
   - [Ethereum](./rpc/ethereum/summary.md)
     - [eth_blockNumber](./rpc/ethereum/eth_blockNumber.md)
