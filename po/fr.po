@@ -5,10 +5,10 @@ msgstr ""
 "PO-Revision-Date: 2023-05-05 21:11-0600\n"
 "Last-Translator: glihm <dev@glihm.net>\n"
 "Language-Team: French <traduc@traduc.org>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: src/SUMMARY.md:3
@@ -24,5 +24,10 @@ msgid "# Hey Damián!"
 msgstr "# Salut Damián !"
 
 #: src/page1.md:3
-msgid "A blob of test being translated."
+#, fuzzy
+msgid "A blob of test being translated.CHANGED"
 msgstr "Un bout de text à traduire."
+
+#: src/page1.md:5
+msgid "AHAH, new text to be merged."
+msgstr ""

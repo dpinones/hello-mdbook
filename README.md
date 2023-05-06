@@ -34,9 +34,25 @@ generated and updated with few commands.
 
 When english text is changed, those are the step to merge the new content:
 
-1. Rebuild the `messages.pot`:
+1. Rebuild the `messages.pot`. This must be done ANYTIME the english version is changed.
    `MDBOOK_OUTPUT='{"xgettext": {"pot-file": "messages.pot"}}' mdbook build -d po`
+   
+2. To add a new translation, just run the following command replacing `xx` by the two letters of the language.
+   `msginit -i po/messages.pot -l xx -o po/xx.po`
 
-2. Merge the changes, where unchanged messages are intact, deleted message are marked as old, and the updated messaged
+2. Merge the changes if the translation was already generated, but english version was rebuild.
+   In this process, unchanged messages are intact, deleted message are marked as old and can be removed, and the updated messaged
    marked as fuzzy and must be updated before removing the marker.
    `msgmerge --update po/xx.po po/messages.pot`
+
+   Fuzzy marker looks like this:
+   ```
+   #: src/page1.md:3
+   #, fuzzy
+   msgid "A blob of test being translated.CHANGED"
+   msgstr "Un bout de text à traduire."
+   ```
+
+   If the fuzzy marker is not removed, the text will be displayed in english instead of
+   the translation (even if `msgstr` is set, as shown in this example. Only removing the
+   fuzzy marker will render in the target language.

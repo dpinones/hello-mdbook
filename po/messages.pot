@@ -25,7 +25,7 @@ msgid "# Hey Damián!"
 msgstr ""
 
 #: src/page1.md:3
-msgid "A blob of test being translated."
+msgid "A blob of test being translated.CHANGED"
 msgstr ""
 
 #: src/page1.md:5
