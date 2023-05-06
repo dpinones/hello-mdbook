@@ -1,0 +1,28 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: test mdbook\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2023-05-05 21:12-0600\n"
+"Last-Translator: glihm <dev@glihm.net>\n"
+"Language-Team: Spanish <es@tp.org.es>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/SUMMARY.md:3
+msgid "Part 1"
+msgstr "Parte 1"
+
+#: src/SUMMARY.md:5
+msgid "First Chapter"
+msgstr "Capítulo 1"
+
+#: src/page1.md:1
+msgid "# Hey Damián!"
+msgstr "# ¡Holá Damián!"
+
+#: src/page1.md:3
+msgid "A blob of test being translated."
+msgstr "Una parte de texto traducida."

@@ -1,0 +1,34 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: test mdbook\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/SUMMARY.md:3
+msgid "Part 1"
+msgstr ""
+
+#: src/SUMMARY.md:5
+msgid "First Chapter"
+msgstr ""
+
+#: src/page1.md:1
+msgid "# Hey Damián!"
+msgstr ""
+
+#: src/page1.md:3
+msgid "A blob of test being translated."
+msgstr ""
+
+#: src/page1.md:5
+msgid "AHAH, new text to be merged."
+msgstr ""
+
