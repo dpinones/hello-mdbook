@@ -56,3 +56,11 @@ When english text is changed, those are the step to merge the new content:
    If the fuzzy marker is not removed, the text will be displayed in english instead of
    the translation (even if `msgstr` is set, as shown in this example. Only removing the
    fuzzy marker will render in the target language.
+
+## Test locally
+
+1. Merge the translations with `sh translate.sh` to ensure no updated are needed. Edit all required stuff in the `po` dir.
+
+2. Build the book and all translations `sh build.sh`.
+
+3. Open the book with a browser `firefox book/index.html`.

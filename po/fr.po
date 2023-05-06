@@ -24,10 +24,9 @@ msgid "# Hey Damián!"
 msgstr "# Salut Damián !"
 
 #: src/page1.md:3
-#, fuzzy
 msgid "A blob of test being translated.CHANGED"
-msgstr "Un bout de text à traduire."
+msgstr "Un bout de text à traduire.CHANGÉ"
 
 #: src/page1.md:5
 msgid "AHAH, new text to be merged."
-msgstr ""
+msgstr "AHAH, nouveau text mergé."
