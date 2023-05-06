@@ -1,15 +1,40 @@
 [book]
-authors = ["dpinones"]
+authors = ["dpinones", "glihm"]
 language = "en"
 multilingual = false
 src = "src"
-title = "hello-mdbook"
+title = "test mdbook"
+
+[rust]
+edition = "2021"
+
+[build]
+extra-watch-dirs = ["po", "third_party"]
+
+[preprocessor.gettext]
+after = ["links"]
+
+# [preprocessor.svgbob]
+# renderers = ["html"]
+# after = ["gettext"]
+# class = "bob"
 
 [output.html]
+curly-quotes = true
+# additional-js = ["speaker-notes.js"]
+additional-css = ["css/language-picker.css"]
+site-url = "/test-deploy-url/"
+git-repository-url = "https://github.com/dpinones/hello-mdbook"
+# edit-url-template = "https://github.com/google/comprehensive-rust/edit/main/{path}"
 # disable numeric section labels
 no-section-label = true 
-git-repository-url = "https://github.com/dpinones/hello-mdbook"
-git-repository-icon = "fa-github"
 
 [output.html.fold]
 enable = true
+level = 0
+
+[output.html.playground]
+editable = true
+
+# [output.exerciser]
+# output-directory = "comprehensive-rust-exercises"
