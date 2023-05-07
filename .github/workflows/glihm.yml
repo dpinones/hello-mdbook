@@ -46,6 +46,9 @@ jobs:
               echo "::group::Building $po_lang translation"
               MDBOOK_BOOK__LANGUAGE=$po_lang \
               mdbook build -d book/$po_lang
+              ls book
+              echo "------------------------------------------"
+              ls .
               mv book/$po_lang/html book/html/$po_lang
               echo "::endgroup::"
           done
