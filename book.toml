@@ -23,7 +23,7 @@ after = ["links"]
 curly-quotes = true
 # additional-js = ["speaker-notes.js"]
 additional-css = ["css/language-picker.css"]
-site-url = "/test-deploy-url/"
+# site-url = "/test-deploy-url/"
 git-repository-url = "https://github.com/dpinones/hello-mdbook"
 # edit-url-template = "https://github.com/google/comprehensive-rust/edit/main/{path}"
 # disable numeric section labels
